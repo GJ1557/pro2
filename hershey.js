@@ -1,0 +1,35 @@
+$(function(){
+    $('.sec5_txt').mouseover(function(){
+        $('.sec5_img>div').css('display' , 'none')
+    })
+    $('.sec5_txt>a:nth-of-type(1)').mouseover(function(){
+        $('.sec5_img>img').attr('src','./img/sec4/1.cake&cupcake/witchs-hat-chocolate-cupcakes.jpg')
+    })
+    $('.sec5_txt>a:nth-of-type(2)').mouseover(function(){
+        $('.sec5_img>img').attr('src','./img/sec4/2.cookie/hersheys-kisses-chocolate-blossom-cookies.jpg')
+    })
+    $('.sec5_txt>a:nth-of-type(3)').mouseover(function(){
+        $('.sec5_img>img').attr('src','./img/sec4/3.brownie&bar/chunky-macadamia-bars.jpg')
+    })
+    $('.sec5_txt>a:nth-of-type(4)').mouseover(function(){
+        $('.sec5_img>img').attr('src','./img/sec4/4.bread&muffin/caramel-nut-bundles.jpg')
+    })
+    $('.sec5_txt>a:nth-of-type(5)').mouseover(function(){
+        $('.sec5_img>img').attr('src','./img/sec4/5.pudding&mousse/cookies-n-creme-pudding.jpg')
+    })
+    $('.sec5_txt>a:nth-of-type(6)').mouseover(function(){
+        $('.sec5_img>img').attr('src','./img/sec4/6.pie&tart/creamy-milk-chocolate-pudding-pie.jpg')
+    })
+    $('.sec5_txt>a:nth-of-type(7)').mouseover(function(){
+        $('.sec5_img>img').attr('src','./img/sec4/7.candy&snack/smores.jpg')
+    })
+    $('.sec5_txt>a:nth-of-type(8)').mouseover(function(){
+        $('.sec5_img>img').attr('src','./img/sec4/8.frosting&peeling/perfectly-chocolate-chocolate-frosting.jpg')
+    })
+    $('.sec5_txt>a:nth-of-type(9)').mouseover(function(){
+        $('.sec5_img>img').attr('src','./img/sec4/9.brookside/brookside-and-milk-chocolate-drizzled-toffee-popcorn.jpg')
+    })
+    $('.sec5_txt>a:nth-of-type(10)').mouseover(function(){
+        $('.sec5_img>img').attr('src','./img/sec4/10.reeses/reeses-peanut-butter-blondie-cups.jpg')
+    })
+})
